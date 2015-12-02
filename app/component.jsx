@@ -6,10 +6,10 @@ var React = require('react');
 var Hello = React.createClass({
     render:function(){
         return (
-            <h1>
-                Hello World
-                <span>让他们来</span>
-            </h1>
+            <div>
+                <h1>Hello World</h1>
+                <p>babelrc怎么用？</p>
+            </div>
         );
     }
 });
