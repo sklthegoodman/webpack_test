@@ -2,5 +2,12 @@
  * Created by wrynnsun on 15/12/1.
  */
 'use strict';
-var component = require('./component.js');
-document.body.appendChild(component());
+var Hello = require('./component.jsx');
+var React = require('react')
+var ReactDom = require('react-dom');
+
+//
+
+ReactDom.render((
+    <Hello></Hello>
+),document.getElementById('app'));
