@@ -21,7 +21,10 @@ var config = {
         loaders:[
             {
                 test: /\.jsx?$/,
-                loader: "babel"
+                loader: "babel",
+                query:{
+                    presets:["react","es2015"]
+                }
             }
         ],
         noParse:[
